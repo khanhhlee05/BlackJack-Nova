@@ -80,7 +80,7 @@ def main():
         if wel:
             figlet = Figlet()
             figlet.setFont(font="slant")
-            print(figlet.renderText("Welcome to BlackJack Nova"))
+            print(figlet.renderText("Welcome to BlackJackNova"))
             wel = False
 
         print(f"{'-'*30}\nMENU:\n1. Play\n2. Deposit\n3. Show Balance\n4. Quit\n{'-'*30}")
